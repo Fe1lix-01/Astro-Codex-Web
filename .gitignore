@@ -1,0 +1,19 @@
+# Archivos de dependencias (¡muy importante!)
+frontend/node_modules
+backend/venv
+
+# Archivos de Vite
+frontend/.vite
+frontend/dist
+
+# Archivos de Python
+backend/__pycache__/
+backend/*.pyc
+
+# Archivos de entorno (contienen secretos)
+.env
+.env.*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
