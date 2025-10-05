@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@google/earthengine": "^1.6.8",
+    "georaster": "^1.6.0",
+    "georaster-layer-for-leaflet": "^4.1.2",
     "leaflet": "^1.9.4",
     "leaflet-draw": "^1.0.4",
     "react": "^19.1.1",

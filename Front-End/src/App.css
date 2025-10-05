@@ -1,0 +1,40 @@
+/* src/App.css */
+
+/* Reseteo básico para eliminar márgenes */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+/* Hacemos que la App ocupe toda la pantalla y sea un contenedor flex vertical */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 15px;
+  color: white;
+}
+
+.status-bar {
+  padding: 5px;
+  background-color: #f0f0f0;
+  min-height: 25px;
+}
+
+.error-message {
+  color: red;
+}
+
+/* MUY IMPORTANTE: Le decimos al contenedor del mapa que crezca y ocupe todo el espacio sobrante */
+.leaflet-container {
+  flex-grow: 1;
+  width: 100%;
+}

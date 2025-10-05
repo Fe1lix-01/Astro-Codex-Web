@@ -6,7 +6,7 @@ import 'leaflet-draw/dist/leaflet.draw.css';
 import * as ee from '@google/earthengine';
 import L from 'leaflet';
 
-const GOOGLE_CLOUD_PROJECT_ID = '326160156691-um6cvlgrq17ol1i7es2cso4091q9bm1n.apps.googleusercontent.com'; 
+const GOOGLE_CLOUD_PROJECT_ID = '326160156691-6ju194fid8apmbbau4vtdfjnh9be4j53.apps.googleusercontent.com'; 
 
 const MapControls = () => {
   const [eeLayer, setEeLayer] = useState(null);
@@ -14,7 +14,7 @@ const MapControls = () => {
 
   useEffect(() => {
     ee.data.authenticateViaOauth(
-      '326160156691-um6cvlgrq17ol1i7es2cso4091q9bm1n.apps.googleusercontent.com', 
+      '326160156691-6ju194fid8apmbbau4vtdfjnh9be4j53.apps.googleusercontent.com', 
       () => { console.log('Autenticación exitosa!'); },
       (error) => { console.error('Error de autenticación:', error); }
     );
