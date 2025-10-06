@@ -17,3 +17,7 @@ backend/*.pyc
 # Archivos del sistema operativo
 .DS_Store
 Thumbs.db
+
+# Clave secreta de la cuenta de servicio
+BackEnd/aut.json
+
